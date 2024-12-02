@@ -1,0 +1,27 @@
+# Java-specific files
+*.class
+
+# Log files
+*.log
+
+# Maven-specific files
+target/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Spring Boot-specific files
+# Exclude application configuration files if they contain sensitive information
+# Uncomment the following line if you need to exclude application.properties or application.yml
+# src/main/resources/application.properties
+# src/main/resources/application.yml
+
+# IDE-specific files #
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
